@@ -41,7 +41,7 @@
         "outboundTag": "vless-reality",
         "type": "field"
       },
-      //kinozal.tv
+      //torrents
       {
         "inboundTag": [
           "redirect",
@@ -49,7 +49,8 @@
           "http-in"
         ],
         "domain": [
-          "kinozal"
+          "kinozal",
+          "rutracker"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
