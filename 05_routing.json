@@ -40,6 +40,19 @@
         ],
         "outboundTag": "vless-reality",
         "type": "field"
+      },
+      //kinozal.tv
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy",
+          "http-in"
+        ],
+        "domain": [
+          "kinozal"
+        ],
+        "outboundTag": "vless-reality",
+        "type": "field"
       }
     ]
   }
