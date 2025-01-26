@@ -5,7 +5,8 @@
 		{
 			"access": "/opt/var/log/xray/access.log",     // Запись доступа
 			"error": "/opt/var/log/xray/error.log",       // Запись ошибок
-			"loglevel": "error",    // Уровень журнала: от минимального до максимального: "none", "error", "warning", "info", "debug"
-			"dnsLog": false		// Включить / Выключить отслеживание DNS запросов: false, true
+			"debug": "/opt/var/log/xray/debug.log",
+			"loglevel": "debug",    // Уровень журнала: от минимального до максимального: "none", "error", "warning", "info", "debug"
+			"dnsLog": true		// Включить / Выключить отслеживание DNS запросов: false, true
 		}
 }
