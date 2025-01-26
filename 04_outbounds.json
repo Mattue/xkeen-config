@@ -1,0 +1,40 @@
+{
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "domainStrategy": "UseIPv4",
+      "tag": "vless-reality",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.241.90.233",
+            "port": 443,
+            "users": [
+              {
+                "id": "98460d78-6940-4e29-a9ec-7361696e6758",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "level": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "publicKey": "M9v--6ZAlLHCol7RiAmWkZHQDwHGuP2raySbiFMcMTo",
+          "fingerprint": "random",
+          "serverName": "yahoo.com",
+          "shortId": "bbb9df2a21",
+          "spiderX": "/"
+        }
+      }
+    }
+  ]
+}

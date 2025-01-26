@@ -1,0 +1,25 @@
+// Исходящее соединение
+
+{
+  "inbounds": [
+    {
+    // TUN
+      "tag": "http-in",
+      "port": 2080,
+      "protocol": "http",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+// Настройка маршрутизации
+{
+  "routing": {
+    "rules": [
+      // VPS подключение  |  Основное
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy",
+          "http-in"
+        ],
+        "domain": [
+          //! For testing
+          "2ip",
+          //! youtube
+          "youtube",
+          "youtu.be",
+          "yt.be",
+          "googlevideo.com",
+          "ytimg.com",
+          "ggpht.com",
+          "gvt1.com",
+          "youtube-nocookie.com",
+          "youtube-ui.l.google.com",
+          "youtubeembeddedplayer.googleapis.com",
+          "youtube.googleapis.com",
+          "youtubei.googleapis.com",
+          "yt-video-upload.l.google.com",
+          "wide-youtube.l.google.com"
+          //"google.com",
+          //"google.ru",
+          //"googleapis.com"
+          //! instagram
+        ],
+        "outboundTag": "vless-reality",
+        "type": "field"
+      }
+    ]
+  }
+}
