@@ -49,8 +49,8 @@
           "http-in"
         ],
         "domain": [
-          "kinozal",
-          "rutracker"
+          "kinozal.tv",
+          "rutracker.org"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
