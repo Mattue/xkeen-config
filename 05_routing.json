@@ -2,7 +2,7 @@
 {
   "routing": {
     "rules": [
-      // VPS подключение  |  Основное
+      // for testing
       {
         "inboundTag": [
           "redirect",
@@ -10,9 +10,19 @@
           "http-in"
         ],
         "domain": [
-          //! For testing
-          "2ip",
-          //! youtube
+          "2ip"
+        ],
+        "outboundTag": "vless-reality",
+        "type": "field"
+      },
+      // youtube
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy",
+          "http-in"
+        ],
+        "domain": [
           "youtube",
           "youtu.be",
           "yt.be",
@@ -27,10 +37,6 @@
           "youtubei.googleapis.com",
           "yt-video-upload.l.google.com",
           "wide-youtube.l.google.com"
-          //"google.com",
-          //"google.ru",
-          //"googleapis.com"
-          //! instagram
         ],
         "outboundTag": "vless-reality",
         "type": "field"
