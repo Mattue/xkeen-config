@@ -65,6 +65,15 @@
         "protocol": [
           "bittorrent"
         ]
+      },
+      // everything else
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
       }
     ]
   }
