@@ -50,7 +50,8 @@
           "kinozal",
           "rutracker",
           "rutrk",
-          "cloudflare-ech"
+          "cloudflare-ech",
+          "cloudflare"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
