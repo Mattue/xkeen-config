@@ -7,8 +7,7 @@
       {
         "inboundTag": [
           "redirect",
-          "tproxy",
-          "http-in"
+          "tproxy"
         ],
         "domain": [
           "2ip"
@@ -20,8 +19,7 @@
       {
         "inboundTag": [
           "redirect",
-          "tproxy",
-          "http-in"
+          "tproxy"
         ],
         "domain": [
           "youtube",
@@ -46,8 +44,7 @@
       {
         "inboundTag": [
           "redirect",
-          "tproxy",
-          "http-in"
+          "tproxy"
         ],
         "domain": [
           "kinozal",
