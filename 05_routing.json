@@ -47,6 +47,7 @@
           "tproxy"
         ],
         "domain": [
+          "ext:geosite_zkeen.dat:domains",
           "ext:geosite_v2fly.dat:instagram",
           "ext:geosite_v2fly.dat:meta"
         ],
