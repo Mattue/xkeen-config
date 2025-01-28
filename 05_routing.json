@@ -41,19 +41,19 @@
         "type": "field"
       },
       //instagram
-      {
-        "inboundTag": [
-          "redirect",
-          "tproxy"
-        ],
-        "domain": [
-          "ext:geosite_zkeen.dat:domains",
-          "ext:geosite_v2fly.dat:instagram",
-          "ext:geosite_v2fly.dat:meta"
-        ],
-        "outboundTag": "vless-reality",
-        "type": "field"
-      },
+      // {
+      //   "inboundTag": [
+      //     "redirect",
+      //     "tproxy"
+      //   ],
+      //   "domain": [
+      //     "ext:geosite_zkeen.dat:domains",
+      //     "ext:geosite_v2fly.dat:instagram",
+      //     "ext:geosite_v2fly.dat:meta"
+      //   ],
+      //   "outboundTag": "vless-reality",
+      //   "type": "field"
+      // },
       //torrents
       {
         "inboundTag": [
