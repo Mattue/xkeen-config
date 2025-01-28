@@ -47,7 +47,8 @@
           "tproxy"
         ],
         "domain": [
-          "ext:geosite_v2fly.dat:instagram"
+          "ext:geosite_v2fly.dat:instagram",
+          "ext:geosite_v2fly.dat:meta"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
