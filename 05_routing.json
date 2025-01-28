@@ -40,6 +40,18 @@
         "outboundTag": "vless-reality",
         "type": "field"
       },
+      //instagram
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy"
+        ],
+        "domain": [
+          "ext:geosite_v2fly.dat:instagram"
+        ],
+        "outboundTag": "vless-reality",
+        "type": "field"
+      },
       //torrents
       {
         "inboundTag": [
