@@ -1,25 +1,36 @@
-// Исходящее соединение
-
 {
   "inbounds": [
-    {
-    // TUN
-      "tag": "http-in",
-      "port": 2080,
-      "protocol": "http",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
+      {
+          "tag": "redirect",
+          "port": 61219,
+          "protocol": "dokodemo-door",
+          "settings": {
+              "network": "tcp",
+              "followRedirect": true
+          },
+          "sniffing": {
+            "routeOnly": true,
+            "enabled": true,
+              "destOverride": [
+                  "http",
+                  "tls",
+                  "quic"
+              ]
+          }
       },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
+      {
+          "tag": "tproxy",
+          "port": 61219,
+          "protocol": "dokodemo-door",
+          "settings": {
+              "network": "udp",
+              "followRedirect": true
+          },
+          "streamSettings": {
+              "sockopt": {
+                  "tproxy": "tproxy"
+              }
+          }
       }
-    }
   ]
 }
