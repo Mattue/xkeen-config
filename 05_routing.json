@@ -49,6 +49,7 @@
         "domain": [
           "kinozal",
           "rutracker",
+          "rutrk",
           "cloudflare-ech"
         ],
         "outboundTag": "vless-reality",
