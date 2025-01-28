@@ -2,6 +2,7 @@
 {
   "routing": {
     "rules": [
+      // VLESS
       // for testing
       {
         "inboundTag": [
@@ -54,6 +55,19 @@
         ],
         "outboundTag": "vless-reality",
         "type": "field"
+      },
+      //DIRECT
+      //bittorent direct
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy"
+        ],
+        "outboundTag": "direct",
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ]
       }
     ]
   }
