@@ -48,7 +48,8 @@
         ],
         "domain": [
           "kinozal",
-          "rutracker"
+          "rutracker",
+          "cloudflare-ech"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
