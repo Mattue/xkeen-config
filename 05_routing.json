@@ -72,27 +72,15 @@
         "type": "field"
       }
       //DIRECT
-      //bittorent direct
-      // {
-      //   "inboundTag": [
-      //     "redirect",
-      //     "tproxy"
-      //   ],
-      //   "outboundTag": "direct",
-      //   "type": "field",
-      //   "protocol": [
-      //     "bittorrent"
-      //   ]
-      // },
-      // everything else
-      // {
-      //   "inboundTag": [
-      //     "redirect",
-      //     "tproxy"
-      //   ],
-      //   "outboundTag": "direct",
-      //   "type": "field"
-      // }
+      //everything else
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      }
     ]
   }
 }
