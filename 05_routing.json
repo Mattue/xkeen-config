@@ -85,14 +85,14 @@
       //   ]
       // },
       // everything else
-      {
-        "inboundTag": [
-          "redirect",
-          "tproxy"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      }
+      // {
+      //   "inboundTag": [
+      //     "redirect",
+      //     "tproxy"
+      //   ],
+      //   "outboundTag": "direct",
+      //   "type": "field"
+      // }
     ]
   }
 }
