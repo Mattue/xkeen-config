@@ -34,7 +34,8 @@
           "cloudflare-ech",
           "cloudflare",
           //jackbox
-          "jackbox"
+          "jackbox",
+          "ecast-prod-28687133"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
