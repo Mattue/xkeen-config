@@ -32,10 +32,7 @@
           "rutrk",
           "nnmclub",
           "cloudflare-ech",
-          "cloudflare",
-          //jackbox
-          "jackbox",
-          "ecast-prod-28687133"
+          "cloudflare"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
