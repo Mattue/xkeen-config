@@ -3,6 +3,21 @@
   "routing": {
     "rules": [
       // VPN (VLESS)
+      // IP
+      {
+        "inboundTag": [
+          "redirect",
+          "tproxy"
+        ],
+        "outboundTag": "vless-reality",
+        "type": "field",
+        "ip": [
+          "ext:zkeenip.dat:cloudflare",
+          "ext:zkeenip.dat:amazon"
+        ]
+      },
+      // VPN (VLESS)
+      // domains
       {
         "inboundTag": [
           "redirect",
