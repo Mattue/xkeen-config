@@ -2,26 +2,16 @@
 {
   "routing": {
     "rules": [
-      // VLESS
-      // for testing
+      // VPN (VLESS)
       {
         "inboundTag": [
           "redirect",
           "tproxy"
         ],
         "domain": [
-          "2ip"
-        ],
-        "outboundTag": "vless-reality",
-        "type": "field"
-      },
-      // youtube
-      {
-        "inboundTag": [
-          "redirect",
-          "tproxy"
-        ],
-        "domain": [
+          //for testing
+          "2ip",
+          //youtube
           "youtube",
           "youtu.be",
           "yt.be",
@@ -35,7 +25,16 @@
           "youtube.googleapis.com",
           "youtubei.googleapis.com",
           "yt-video-upload.l.google.com",
-          "wide-youtube.l.google.com"
+          "wide-youtube.l.google.com",
+          //torrents
+          "kinozal",
+          "rutracker",
+          "rutrk",
+          "nnmclub",
+          "cloudflare-ech",
+          "cloudflare",
+          //jackbox
+          "jackbox"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
@@ -55,22 +54,6 @@
       //   "type": "field"
       // },
       //torrents
-      {
-        "inboundTag": [
-          "redirect",
-          "tproxy"
-        ],
-        "domain": [
-          "kinozal",
-          "rutracker",
-          "rutrk",
-          "nnmclub",
-          "cloudflare-ech",
-          "cloudflare"
-        ],
-        "outboundTag": "vless-reality",
-        "type": "field"
-      },
       //DIRECT
       //everything else
       {
