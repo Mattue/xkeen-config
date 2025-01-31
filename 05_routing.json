@@ -47,7 +47,9 @@
           "rutrk",
           "nnmclub",
           "cloudflare-ech",
-          "cloudflare"
+          "cloudflare",
+          //jackbox
+          "jackbox"
         ],
         "outboundTag": "vless-reality",
         "type": "field"
