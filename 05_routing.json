@@ -3,20 +3,6 @@
   "routing": {
     "rules": [
       // VPN (VLESS)
-      // IP
-      // {
-      //   "inboundTag": [
-      //     "redirect",
-      //     "tproxy"
-      //   ],
-      //   "outboundTag": "vless-reality",
-      //   "type": "field",
-      //   "ip": [
-      //     "ext:zkeenip.dat:cloudflare",
-      //     "ext:zkeenip.dat:amazon"
-      //   ]
-      // },
-      // VPN (VLESS)
       // domains
       {
         "inboundTag": [
@@ -54,21 +40,6 @@
         "outboundTag": "vless-reality",
         "type": "field"
       },
-      //instagram
-      // {
-      //   "inboundTag": [
-      //     "redirect",
-      //     "tproxy"
-      //   ],
-      //   "domain": [
-      //     "ext:geosite_zkeen.dat:domains",
-      //     "ext:geosite_v2fly.dat:instagram",
-      //     "ext:geosite_v2fly.dat:meta"
-      //   ],
-      //   "outboundTag": "vless-reality",
-      //   "type": "field"
-      // },
-      //torrents
       //DIRECT
       //everything else
       {
