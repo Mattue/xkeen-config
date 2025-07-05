@@ -1,40 +1,48 @@
 {
   "outbounds": [
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "domainStrategy": "UseIPv4",
-      "tag": "vless-reality",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "150.241.90.233",
-            "port": 443,
-            "users": [
-              {
-                "id": "98460d78-6940-4e29-a9ec-7361696e6758",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "level": 0
+      {
+          "tag": "vless-reality",
+          "protocol": "vless",
+          "settings": {
+              "vnext": [
+                  {
+                      "address": "95.164.92.217",
+                      "port": 443,
+                      "users": [
+                          {
+                              "id": "902c8e18-f1b7-45ce-8f8a-1f171331c9b6",
+                              "flow": "xtls-rprx-vision",
+                              "encryption": "none",
+                              "level": 0
+                          }
+                      ]
+                  }
+              ]
+          },
+          "streamSettings": {
+              "network": "tcp",
+              "security": "reality",
+              "realitySettings": {
+                  "publicKey": "-_piuLSIBNlF77PiCyEUrQ6995RzJHXifxQjdjBIXx0",
+                  "fingerprint": "chrome",
+                  "serverName": "ya.ru",
+                  "shortId": "39",
+                  "spiderX": "/"
               }
-            ]
           }
-        ]
       },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "publicKey": "M9v--6ZAlLHCol7RiAmWkZHQDwHGuP2raySbiFMcMTo",
-          "fingerprint": "random",
-          "serverName": "yahoo.com",
-          "shortId": "bbb9df2a21",
-          "spiderX": "/"
-        }
+      {
+          "tag": "direct",
+          "protocol": "freedom"
+      },
+      {
+          "tag": "block",
+          "protocol": "blackhole",
+          "settings": {
+              "response": {
+                  "type": "http"
+              }
+          }
       }
-    }
   ]
 }
